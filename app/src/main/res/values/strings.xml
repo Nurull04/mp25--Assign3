@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MySimpleApp</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register_prompt">Do not have an account yet? Register here</string>
+    <string name="name">Name</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_message_placeholder">[Name] !</string>
+    <string name="welcome_message">%1$s!</string>
+
+</resources>

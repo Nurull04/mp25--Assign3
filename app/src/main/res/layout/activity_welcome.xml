@@ -1,0 +1,46 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="@null"
+        android:src="@drawable/cat2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWelcomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/bubble"
+            android:text="WELCOME"
+            android:textColor="#4A66AC"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvWelcomeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubble"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/welcome_message_placeholder"
+            android:textColor="#4A66AC"
+            android:textSize="30sp" />
+    </LinearLayout>
+</FrameLayout>
